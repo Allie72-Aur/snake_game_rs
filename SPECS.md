@@ -97,7 +97,7 @@ of the game together, here's exactly how:
 
 My strategy is to build this piece by piece, and here's exactly how:
 
-- [ ] Start Simple: Get a basic window to open.
+- [X] Start Simple: Get a basic window to open.
 - [ ] Add Static Elements: Draw the snake and food at fixed positions.
 - [ ] Introduce Movement: Make the snake move automatically in one direction.
 - [ ] Add Control: Implement player input to change the snake's direction.
