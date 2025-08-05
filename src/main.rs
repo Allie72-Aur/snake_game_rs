@@ -42,4 +42,17 @@ fn draw(context: Context, graphics: &mut G2d) {
         context.transform,
         graphics,
     );
+    // Draw food
+    let food = (8, 8); // Food position
+    rectangle(
+        [0.8, 0.1, 0.1, 1.0], // Red color
+        [
+            food.0 as f64 * BLOCK_SIZE,
+            food.1 as f64 * BLOCK_SIZE,
+            BLOCK_SIZE,
+            BLOCK_SIZE,
+        ],
+        context.transform,
+        graphics,
+    );
 }
